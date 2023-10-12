@@ -1,0 +1,6 @@
+/* CoinPage.css */
+
+.coin-row:hover {
+  background-color: #131111;
+  cursor: pointer;
+}

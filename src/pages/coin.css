@@ -1,0 +1,33 @@
+/* Define styles for screens smaller than 600px */
+.sidebar {
+  margin-top: 2rem;
+}
+@media (max-width: 700px) {
+  .responsive-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: none; /* Remove the right border */
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  .sidebar {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
